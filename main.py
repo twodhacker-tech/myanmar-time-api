@@ -16,6 +16,6 @@ def get_myanmar_time():
         "time": now.strftime("%H:%M:%S"),
         "hour": now.strftime("%H"),
         "minutes": now.strftime("%M"),
-        "seconds": now.strftime("%S")
+        "seconds": now.strftime("%S"),
         "utc_offset": "+06:30"
     }
